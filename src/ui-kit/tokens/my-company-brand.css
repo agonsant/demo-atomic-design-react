@@ -3,6 +3,9 @@
   --cb-color-surface-primary: var(--cb-color-brand-orange);
   /* ... */
   --cb-color-text-primary: var(--cb-color-neutrals-black);
+  --cb-text-subtitle-xs: 32px;
+  --cb-text-subtitle-md: 40px;
+  --cb-text-subtitle-lg: 48px;
   /* ... completar con el resto de tokens de color del branding siguiendo su estructura de grupos y subgrupos */
   --cb-elevation-none: 0;
   --cb-elevation-sm: 0px 2px 2px 0px rgba(0, 0, 0, 0.1),
