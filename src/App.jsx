@@ -4,6 +4,7 @@ import Subtitle from "./ui-kit/atoms/text/subtitle";
 import Icon from "./ui-kit/atoms/icon";
 import PageTitle from "./ui-kit/atoms/text/page-title";
 import TextBody from "./ui-kit/atoms/text/body";
+import Button from "./ui-kit/atoms/button";
 
 function App() {
   return (
@@ -27,6 +28,14 @@ function App() {
       <TextBody size="sm">texto pequeño</TextBody>
       <TextBody size="md">texto mediano</TextBody>
       <TextBody size="lg">texto grande</TextBody>
+
+      <Button
+        color="secondary"
+        cbClick={(ev) => console.log("Click en Volver", ev)}
+      >
+        Volver
+      </Button>
+      <Button color="primary">Example text</Button>
     </>
   );
 }

@@ -1,8 +1,19 @@
 :root {
   --cb-color-surface-bg: var(--cb-color-neutrals-white);
   --cb-color-surface-primary: var(--cb-color-brand-orange);
+  --cb-color-surface-primary-hover: var(--cb-color-orange-600);
+  --cb-color-surface-secondary: var(--cb-color-orange-50);
+  --cb-color-surface-secondary-hover: var(--cb-color-orange-100);
+  --cb-color-surface-success: var(--cb-color-green-400);
   /* ... */
   --cb-color-text-primary: var(--cb-color-neutrals-black);
+  --cb-color-text-secondary: var(--cb-color-grey-600);
+  --cb-color-text-invert: var(--cb-color-neutrals-white);
+  --cb-color-text-dark: var(--cb-color-neutrals-black);
+
+  --cb-font-body: "Inter", Arial, Helvetica, sans-serif;
+  --cb-font-title: "Inter", Arial, Helvetica, sans-serif;
+
   /** TEXT SIZES **/
   --cb-text-body-xs: 0.875rem;
   --cb-text-body-sm: 1rem;
@@ -14,16 +25,39 @@
   --cb-text-page-title: 3.8rem;
   /** TEXT SIZES **/
   /* ... completar con el resto de tokens de color del branding siguiendo su estructura de grupos y subgrupos */
+  --cb-spacing-xxs: 4px;
+  --cb-spacing-xs: 8px;
+  --cb-spacing-s: 12px;
+  --cb-spacing-md: 16px;
+  --cb-spacing-lg: 24px;
+  --cb-spacing-xl: 32px;
+
   --cb-elevation-none: 0;
   --cb-elevation-sm: 0px 2px 2px 0px rgba(0, 0, 0, 0.1),
     0px 3px 1px -2px rgba(0, 0, 0, 0.05), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+  --cb-radius-none: 0;
+  --cb-radius-sm: 4px;
+  --cb-radius-md: 8px;
+  --cb-radius-lg: 12px;
+  --cb-radius-circle: 50%;
   /* ... completar con el resto de tokens de la marca*/
 
   @media (prefers-color-scheme: dark) {
     --cb-color-surface-bg: var(--cb-color-grey-800);
     --cb-color-surface-primary: var(--cb-color-brand-orange);
+    --cb-color-surface-primary-hover: var(--cb-color-orange-800);
+    --cb-color-surface-secondary: var(--cb-color-orange-300);
+    --cb-color-surface-secondary-hover: var(--cb-color-orange-200);
+    --cb-color-surface-success: var(--cb-color-green-900);
     /* ... */
     --cb-color-text-primary: var(--cb-color-neutrals-50);
+    --cb-color-text-secondary: var(--cb-color-grey-400);
+    --cb-color-text-invert: var(--cb-color-neutrals-black);
+
+    --cb-elevation-sm: 0px 2px 2px 0px rgba(255, 255, 255, 0.1),
+      0px 3px 1px -2px rgba(255, 255, 255, 0.05),
+      0px 1px 5px 0px rgba(255, 255, 255, 0.12);
     /* ... completar con el resto de tokens de color del branding siguiendo su estructura de grupos y subgrupos */
   }
 }
