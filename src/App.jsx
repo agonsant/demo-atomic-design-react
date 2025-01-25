@@ -3,6 +3,7 @@ import "./ui-kit/atoms/icon/font-icons.css";
 import Subtitle from "./ui-kit/atoms/text/subtitle";
 import Icon from "./ui-kit/atoms/icon";
 import PageTitle from "./ui-kit/atoms/text/page-title";
+import TextBody from "./ui-kit/atoms/text/body";
 
 function App() {
   return (
@@ -20,6 +21,12 @@ function App() {
       <Subtitle size="lg">
         Subtítulo con Icono: <Icon name="search" />
       </Subtitle>
+
+      <TextBody>texto por defecto</TextBody>
+      <TextBody size="xs">texto muy pequeño</TextBody>
+      <TextBody size="sm">texto pequeño</TextBody>
+      <TextBody size="md">texto mediano</TextBody>
+      <TextBody size="lg">texto grande</TextBody>
     </>
   );
 }

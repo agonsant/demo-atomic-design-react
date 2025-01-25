@@ -3,10 +3,16 @@
   --cb-color-surface-primary: var(--cb-color-brand-orange);
   /* ... */
   --cb-color-text-primary: var(--cb-color-neutrals-black);
+  /** TEXT SIZES **/
+  --cb-text-body-xs: 0.875rem;
+  --cb-text-body-sm: 1rem;
+  --cb-text-body-md: 1.125rem;
+  --cb-text-body-lg: 1.375rem;
   --cb-text-subtitle-xs: 2rem;
   --cb-text-subtitle-md: 2.5rem;
   --cb-text-subtitle-lg: 3rem;
   --cb-text-page-title: 3.8rem;
+  /** TEXT SIZES **/
   /* ... completar con el resto de tokens de color del branding siguiendo su estructura de grupos y subgrupos */
   --cb-elevation-none: 0;
   --cb-elevation-sm: 0px 2px 2px 0px rgba(0, 0, 0, 0.1),
