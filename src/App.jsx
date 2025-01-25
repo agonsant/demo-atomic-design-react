@@ -5,6 +5,7 @@ import Icon from "./ui-kit/atoms/icon";
 import PageTitle from "./ui-kit/atoms/text/page-title";
 import TextBody from "./ui-kit/atoms/text/body";
 import Button from "./ui-kit/atoms/button";
+import Price from "./ui-kit/atoms/price";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         Volver
       </Button>
       <Button color="primary">Example text</Button>
+
+      <Price currency="€" price={10} />
+      <Price currency="€" price={100} discount={10} />
     </>
   );
 }
