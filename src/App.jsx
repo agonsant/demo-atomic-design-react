@@ -6,6 +6,7 @@ import PageTitle from "./ui-kit/atoms/text/page-title";
 import TextBody from "./ui-kit/atoms/text/body";
 import Button from "./ui-kit/atoms/button";
 import Price from "./ui-kit/atoms/price";
+import Chip from "./ui-kit/atoms/chip";
 
 function App() {
   return (
@@ -40,6 +41,20 @@ function App() {
 
       <Price currency="€" price={10} />
       <Price currency="€" price={100} discount={10} />
+
+      <Chip>example</Chip>
+      <Chip color="danger">example</Chip>
+      <Chip color="success">example</Chip>
+      <Chip color="secondary">example</Chip>
+      <Chip color="success" size="sm">
+        example
+      </Chip>
+      <Chip color="primary" size="sm" fill="outline">
+        example
+      </Chip>
+      <Chip color="primary" size="sm" fill="outline" closable={true}>
+        example
+      </Chip>
     </>
   );
 }

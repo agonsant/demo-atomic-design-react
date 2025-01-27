@@ -5,11 +5,14 @@
   --cb-color-surface-secondary: var(--cb-color-orange-50);
   --cb-color-surface-secondary-hover: var(--cb-color-orange-100);
   --cb-color-surface-success: var(--cb-color-green-400);
+  --cb-color-surface-danger: var(--cb-color-red-400);
+  --cb-color-surface-disabled: var(--cb-color-neutrals-100);
   /* ... */
   --cb-color-text-primary: var(--cb-color-neutrals-black);
   --cb-color-text-secondary: var(--cb-color-grey-600);
   --cb-color-text-invert: var(--cb-color-neutrals-white);
   --cb-color-text-dark: var(--cb-color-neutrals-black);
+  --cb-color-text-light: var(--cb-color-neutrals-white);
 
   --cb-font-body: "Inter", Arial, Helvetica, sans-serif;
   --cb-font-title: "Inter", Arial, Helvetica, sans-serif;
@@ -36,10 +39,15 @@
   --cb-elevation-sm: 0px 2px 2px 0px rgba(0, 0, 0, 0.1),
     0px 3px 1px -2px rgba(0, 0, 0, 0.05), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --border-width-lg: 4px;
+
   --cb-radius-none: 0;
   --cb-radius-sm: 4px;
   --cb-radius-md: 8px;
   --cb-radius-lg: 12px;
+  --cb-radius-xl: 30px;
   --cb-radius-circle: 50%;
   /* ... completar con el resto de tokens de la marca*/
 
@@ -50,6 +58,8 @@
     --cb-color-surface-secondary: var(--cb-color-orange-300);
     --cb-color-surface-secondary-hover: var(--cb-color-orange-200);
     --cb-color-surface-success: var(--cb-color-green-900);
+    --cb-color-surface-danger: var(--cb-color-red-900);
+    --cb-color-surface-disabled: var(--cb-color-neutral-900);
     /* ... */
     --cb-color-text-primary: var(--cb-color-neutrals-50);
     --cb-color-text-secondary: var(--cb-color-grey-400);

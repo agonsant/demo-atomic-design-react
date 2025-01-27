@@ -12,9 +12,13 @@
   --cb-color-grey-800: #2c3341;
   --cb-color-green-400: #198754;
   --cb-color-green-900: #051b11;
+  --cb-color-red-400: #dc3545;
+  --cb-color-red-900: #3e0e10;
   --cb-color-brand-orange: #ed5c25;
   --cb-color-neutrals-white: #ffffff;
   --cb-color-neutrals-black: #000000;
   --cb-color-neutrals-50: #e3e3e3;
+  --cb-color-neutrals-100: #cccccc;
+  --cb-color-neutrals-900: #2c2c2c;
   /* ... completar con el resto de primitivos siguiendo su estructura de grupos y subgrupos */
 }
