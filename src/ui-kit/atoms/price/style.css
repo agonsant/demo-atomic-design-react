@@ -1,0 +1,18 @@
+.cb-price {
+  display: inline-block;
+  color: var(--cb-color-text-primary);
+  font-size: var(--cb-text-body-sm);
+}
+
+.cb-price--discounted {
+  color: var(--cb-color-text-secondary);
+}
+
+.cb-price--discounted::after {
+  content: attr(data-original-price);
+  padding-inline-start: var(--cb-spacing-xxs);
+  color: var(--cb-color-text-secondary);
+  text-decoration: line-through var(--cb-color-text-secondary);
+  font-size: var(--cb-text-body-xs);
+  vertical-align: super;
+}

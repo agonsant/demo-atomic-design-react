@@ -1,0 +1,23 @@
+.cb-button {
+  color: var(--cb-color-text-dark);
+  font-size: var(--cb-text-body-md);
+  border: none;
+  border-radius: var(--cb-radius-lg);
+  padding: var(--cb-spacing-md) var(--cb-spacing-lg);
+  box-shadow: var(--cb-elevation-sm);
+}
+
+.cb-button--primary {
+  background-color: var(--cb-color-surface-primary);
+}
+.cb-button--primary:hover {
+  background-color: var(--cb-color-surface-primary-hover);
+}
+
+.cb-button--secondary {
+  background-color: var(--cb-color-surface-secondary);
+}
+
+.cb-button--secondary:hover {
+  background-color: var(--cb-color-surface-secondary-hover);
+}
