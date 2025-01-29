@@ -1,3 +1,5 @@
+@import url("./primitives.css");
+
 :root {
   --cb-color-surface-bg: var(--cb-color-neutrals-white);
   --cb-color-surface-primary: var(--cb-color-brand-orange);
